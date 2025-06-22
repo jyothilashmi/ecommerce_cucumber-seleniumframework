@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [AutomationSuite]">
+  <listeners>
+    <listener class-name="Learn.com.magento.utils.RetryListener"/>
+  </listeners>
+  <test thread-count="2" parallel="tests" name="Rerun Failed Scenarios(failed)">
+    <classes>
+      <class name="runners.RetryScenarioRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="runScenario"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- runners.RetryScenarioRunner -->
+    </classes>
+  </test> <!-- Rerun Failed Scenarios(failed) -->
+  <test thread-count="2" parallel="tests" name="RunCucumberTests(failed)">
+    <classes>
+      <class name="runners.TestRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+          <include name="runScenario"/>
+        </methods>
+      </class> <!-- runners.TestRunner -->
+    </classes>
+  </test> <!-- RunCucumberTests(failed) -->
+</suite> <!-- Failed suite [AutomationSuite] -->

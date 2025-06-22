@@ -1,0 +1,17 @@
+<suite name="AutomationSuite" verbose="1" parallel="tests" thread-count="2">
+  <listeners>
+    <listener class-name="Learn.com.magento.utils.RetryListener" />
+  </listeners>
+
+  <test name="RunCucumberTests">
+    <classes>
+      <class name="runners.TestRunner" />
+    </classes>
+  </test>
+  <test name="Rerun Failed Scenarios">
+    <classes>
+      <class name="runners.RetryScenarioRunner"/>
+    </classes>
+  </test>
+
+</suite>
