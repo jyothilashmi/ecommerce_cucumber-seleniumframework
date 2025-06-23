@@ -41,6 +41,12 @@ This is a BDD-style test automation framework for an ecommerce website, built us
 ```bash
 git clone https://github.com/jyothilashmi/ecommerce_cucumber-seleniumframework.git
 cd ecommerce_cucumber-seleniumframework
+
+2. Build the project and download dependencies
+bash
+Copy
+Edit
+
 **### 2. Build the project and download dependencies**
 mvn clean install
 **### 3. Run tests using Maven and TestNG**
