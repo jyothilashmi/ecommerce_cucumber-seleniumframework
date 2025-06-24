@@ -33,8 +33,7 @@ This is a BDD-style test automation framework for an ecommerce website, built us
 └── README.md                  # Project documentation
 
 ---
-
-## 🛠️ Prerequisites
+**## 🛠️ Prerequisites
 
 - Java JDK 8 or higher  
 - Maven installed and configured in your system PATH  
@@ -42,21 +41,29 @@ This is a BDD-style test automation framework for an ecommerce website, built us
 
 ---
 
-## 🚀 Setup and Running Tests
+**## 🚀 Setup and Running Tests
 
-### 1. Clone the repository
+**### 1. Clone the repository
 
 ```bash
 git clone https://github.com/jyothilashmi/ecommerce_cucumber-seleniumframework.git
 cd ecommerce_cucumber-seleniumframework
+**### 2. Build the project and download dependencies
 
-**### 2. Build the project and download dependencies**
+```bash
 mvn clean install
+
 **### 3. Run tests using Maven and TestNG**
+```bash
 mvn test
-**### 4. Run tests with specific Cucumber tags**
+
+**### 4. Run tests with specific Cucumber tags
+
 If your TestNG runner supports passing tags:
-### mvn test -Dcucumber.options="--tags @Login"
+
+```bash
+mvn test -Dcucumber.options="--tags @Login"
+
 ### Test Runner
 
 The project uses a **TestNG Cucumber Test Runner** class to execute BDD scenarios with TestNG.
