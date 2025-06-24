@@ -34,24 +34,21 @@ This is a BDD-style test automation framework for an ecommerce website, built us
 
 ---
 
-## Prerequisites
+## 🛠️ Prerequisites
 
 - Java JDK 8 or higher  
 - Maven installed and configured in your system PATH  
-- An IDE like Eclipse or IntelliJ IDEA (recommended)  
+- An IDE like Eclipse or IntelliJ IDEA (recommended)
 
-## Setup and Running Tests
+---
+
+## 🚀 Setup and Running Tests
 
 ### 1. Clone the repository
 
 ```bash
 git clone https://github.com/jyothilashmi/ecommerce_cucumber-seleniumframework.git
 cd ecommerce_cucumber-seleniumframework
-
-2. Build the project and download dependencies
-bash
-Copy
-Edit
 
 **### 2. Build the project and download dependencies**
 mvn clean install
