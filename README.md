@@ -16,6 +16,16 @@ This is a BDD-style test automation framework for an ecommerce website, built us
 - ExtentReports integration for rich HTML test reports  
 
 ---
+## 🛠️ Tech Stack
+
+- **Java** — Programming language  
+- **Selenium WebDriver** — Browser automation  
+- **Cucumber** — BDD framework with Gherkin syntax  
+- **TestNG** — Test execution and reporting framework  
+- **Maven** — Build automation and dependency management  
+- **Apache POI** — Excel data-driven testing  
+- **ExtentReports** — Rich HTML test reports  
+- **Page Object Model (POM)** — Design pattern for maintainable automation  
 
 ## 📁 Project Structure
 ```plaintext
@@ -51,7 +61,7 @@ cd ecommerce_cucumber-seleniumframework
 ```bash
 mvn clean install
 ```
-**### 3. Run tests using Maven and TestNG**
+### 3. Run tests using Maven and TestNG
 ```bash
 mvn test
 ```
@@ -62,11 +72,11 @@ If your TestNG runner supports passing tags:
 ```bash
 mvn test -Dcucumber.options="--tags @Login"
 ```
-### Test Runner
+### 5. Test Runner
 
 The project uses a **TestNG Cucumber Test Runner** class to execute BDD scenarios with TestNG.
 
-### Sample Runner Class (Java)
+### 6. Sample Runner Class (Java)
 
 ```java
 import io.cucumber.testng.AbstractTestNGCucumberTests;
@@ -88,12 +98,12 @@ public class TestRunner extends AbstractTestNGCucumberTests {
     // No additional code needed here, TestNG will run scenarios based on these options
 }
 ```
-**### 5. View Test Reports**
+### 7. View Test Reports
 ExtentReports HTML reports are generated in the reports/ directory.
 
 Failure screenshots are saved in the screenshots/ directory.
 
-**## Contact**
+## Contact
 Jyothi Lakshmi
 Email: jyothilakshmisree04@gmail.com
 
