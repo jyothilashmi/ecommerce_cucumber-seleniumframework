@@ -19,7 +19,6 @@ This is a BDD-style test automation framework for an ecommerce website, built us
 
 ## 📁 Project Structure
 
-```plaintext
 ├── src/
 │   ├── main/
 │   │   └── java/              # Page Objects, Utilities
