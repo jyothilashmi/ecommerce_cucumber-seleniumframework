@@ -33,7 +33,7 @@ This is a BDD-style test automation framework for an ecommerce website, built us
 └── README.md                  # Project documentation
 
 ---
-**## 🛠️ Prerequisites
+## 🛠️ Prerequisites
 
 - Java JDK 8 or higher  
 - Maven installed and configured in your system PATH  
