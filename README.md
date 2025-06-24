@@ -2,7 +2,9 @@
 
 This is a BDD-style test automation framework for an ecommerce website, built using **Selenium WebDriver**, **Cucumber**, **TestNG**, and **Java**.
 
-## Features
+---
+
+## ✨ Features
 
 - Behavior-Driven Development (BDD) with Cucumber and Gherkin syntax  
 - TestNG as the test execution framework  
@@ -13,20 +15,24 @@ This is a BDD-style test automation framework for an ecommerce website, built us
 - Automatic screenshots on test failures  
 - ExtentReports integration for rich HTML test reports  
 
-## Project Structure
+---
 
+## 📁 Project Structure
+
+```plaintext
 ├── src/
-│ ├── main/
-│ │ └── java/ # Page Objects, Utilities (Excel reader, Config reader, etc.)
-│ └── test/
-│ └── java/ # Step Definitions, TestNG Test Runners
-├── features/ # Gherkin feature files
-├── reports/ # ExtentReports and other test reports (ignored in .gitignore)
-├── screenshots/ # Screenshots captured on test failures (ignored)
-├── config/ # Configuration files (e.g., config.properties)
-├── resources/ # Test data files (Excel, JSON, etc.)
-├── pom.xml # Maven project descriptor
-└── README.md # This file
+│   ├── main/
+│   │   └── java/              # Page Objects, Utilities
+│   └── test/
+│       └── java/              # Step Definitions, Runners
+├── features/                  # Gherkin feature files
+├── reports/                   # HTML Reports (Extent)
+├── screenshots/               # Captured on test failure
+├── resources/                 # Excel test data, config files
+├── pom.xml                    # Maven project file
+└── README.md                  # Project documentation
+
+---
 
 ## Prerequisites
 
